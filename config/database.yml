@@ -82,4 +82,5 @@ production:
   <<: *default
   database: pv2api_production
   username: pv2api
+  url: <%= ENV['DATABASE_URL'] %>
   password: <%= ENV["PV2API_DATABASE_PASSWORD"] %>
