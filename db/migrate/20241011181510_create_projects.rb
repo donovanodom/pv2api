@@ -4,6 +4,7 @@ class CreateProjects < ActiveRecord::Migration[7.2]
       t.string :title
       t.string :description
       t.string :image
+      t.string :snippet
       t.string :github_link
       t.string :site
 
